@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Магазин готовых шалонов дизайн-студии Нёрдс</title>
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
   </head>
   <body>
     <header class="main_header">
       <div class="main_header_logo">
         <a href="index.html">
-          <img src="https://via.placeholder.com/160x65" alt="Логотип дизайн студии Нёрдс">
+          <img src="img/logo_nerds.svg" width="160" height="65" alt="Логотип дизайн студии Нёрдс">
         </a>
       </div>
       <nav class="main_navigation">
@@ -26,12 +27,12 @@
       </div>
       <div class="cart_icon">
         <a href="#">
-          <img src="https://via.placeholder.com/15x11" alt="">
+          <img src="img/cart-icon.svg" width="15" height="11" alt="Иконка корзины">
         </a>
       </div>
     </header>
 <main>
-    <form action="#" method="GET">
+    <form action="https://echo.htmlacademy.ru/courses" method="GET">
         <fieldset>
             <legend>Стоимость</legend>
             <label>от<input type="text" value="0"></label>
@@ -39,27 +40,40 @@
         </fieldset>
         <fieldset>
             <legend>Сетка</legend>
-            <label><input type="checkbox" name="" checked value="adaptive">Адаптивная</label>
-            <label><input type="checkbox" name="" checked value="fixed">Фиксированая</label>
-            <label><input type="checkbox" name="" checked value="rubber">Резиновая</label>
-        </fieldset>
+            <label><input type="checkbox" checked value="adaptive">Адаптивная</label>
+            <label><input type="checkbox" checked value="fixed">Фиксированая</label>
+            <label><input type="checkbox" checked value="rubber">Резиновая</label>
+        </fieldset> 
         <fieldset>
             <legend>Особенности</legend>
-            <label><input type="checkbox" name="" checked value="slider">Слайдер</label>
-            <label><input type="checkbox" name="" checked value="advantages">Блок преимуществ</label>
-            <label><input type="checkbox" name="" checked value="news">Новости</label>
-            <label><input type="checkbox" name="" checked value="galery">Галерея</label>
-            <label><input type="checkbox" name="" checked value="cart">Корзина</label>
+            <label><input type="checkbox" checked value="slider">Слайдер</label>
+            <label><input type="checkbox" checked value="advantages">Блок преимуществ</label>
+            <label><input type="checkbox" checked value="news">Новости</label>
+            <label><input type="checkbox" checked value="galery">Галерея</label>
+            <label><input type="checkbox" checked value="cart">Корзина</label>
         </fieldset> 
         <button type="submit">Показать</button>
     </form>
-    <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Седона">
-    <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Бородинский">
-    <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Pink">
-    <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Mishka">
-    <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Учеба">
-    <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Крафтовый квас">
-    
+    <section class="projects_img">
+    <div class="sedona_img">
+      <img src="img/img-sedona.png" width="359" height="578" alt="Проект Седона">
+    </div>
+    <div class="pink_img">
+      <img src="img/img-pink.png" width="359" height="578" alt="Проект Pink">
+    </div>
+    <div class="borodinsky_img">
+      <img src="img/img-barbershop.png" width="359" height="578" alt="Проект Бородинский">
+    </div> 
+    <div class="mishka_img">
+      <img src="img/img-mishka.png" width="359" height="578" alt="Проект Mishka">
+    </div>
+    <div class="school_img">
+      <img src="img/img-aplus.png" width="359" height="578" alt="Проект Учеба">
+    </div>
+    <div class="craft_img">
+      <img src="img/img-kvast.png" width="359" height="578" alt="Проект Крафтовый квас">
+    </div>
+  </section>
     <div class="pagination">
         <a href="#">1</a>
         <a href="#">2</a>
@@ -70,30 +84,29 @@
 
 <footer class="main_footer">
     <section class="map">
-      <img src="https://via.placeholder.com/1440x416" alt="" class="map_img">
+      <img src="img/map.png" width="1440" height="416" alt="Адрес дизайн студии Нёрдс" class="map_img">
     </section>
-    <form action="#" method="post">
+    <div class="callme">
       <p>NЁRDS DESIGN STUDIO</p>
       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       <p>тел. +7 (812) 275-75-75</p>
       <button type="submit">Напишите нам</button>
-    </form>
+    </div>
+
     <section class="socialmedia">
       <div class="vk">
         <a href="#">
-          <img src="https://via.placeholder.com/81x81" alt="Vkontakte" class="vk_img">
+          <img src="img/vk-icon.svg" width="26" height="15" alt="Vkontakte" class="vk_img">
         </a> 
       </div>
-
       <div class="facebook">
         <a href="#">
-          <img src="https://via.placeholder.com/81x81" alt="Facebook" class="facebook_img">
+          <img src="img/fb_icon.svg" width="12" height="22" alt="Facebook" class="facebook_img">
         </a> 
       </div>
-
       <div class="instagram">
         <a href="#">
-          <img src="https://via.placeholder.com/81x81" alt="Instagram" class="instagram_img">
+          <img src="img/insta-icon.svg" width="21" height="21" alt="Instagram" class="instagram_img">
         </a> 
       </div>
     </section>
